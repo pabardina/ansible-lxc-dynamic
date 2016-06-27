@@ -5,9 +5,9 @@
 ansible_ssh_user=localadmin
 ansible_sudo_pass=formation
 
-[memcache]
+[apache]
 
-[memcache:vars]
+[apache:vars]
 ansible_ssh_pass=ubuntu
 ansible_ssh_user=ubuntu
 

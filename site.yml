@@ -1,7 +1,7 @@
 - hosts: lxc_hosts
   become: true
   tasks:
-  - include_vars: local_vars.yml	
+  - include_vars: local_vars.yml
 
 #  - debug: msg="{{ vars }}"
 
@@ -31,10 +31,10 @@
 
  # - debug: msg="{{ vars }}"
 
-- hosts: memcache
+- hosts: apache
   become: true
   tasks:
-  - debug: msg="memcached deployment"
+  - debug: msg="apache deployment"
 
 - hosts: mysql
   become: true
