@@ -4,7 +4,7 @@ Ansible LXC Dynamic
 Based on [Creating and using LXC containers with Ansible in-memory inventory](http://gauvain.pocentek.net/ansible-to-deploy-lxc-containers.html)
 
 
-Create LXC containers, and manage them in a single playbook.
+Create LXC containers, and manage them into a single playbook.
 
 ### Requirements :
 
