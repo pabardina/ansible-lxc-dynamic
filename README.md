@@ -22,7 +22,7 @@ Host 10.0.3.*
 
 ```
 [lxc_hosts]
-127.0.0.1 # LXC server
+localhost # LXC server
 
 [lxc_hosts:vars]
 ansible_ssh_user=localadmin
