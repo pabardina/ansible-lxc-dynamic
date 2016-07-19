@@ -1,5 +1,5 @@
 [lxc_hosts]
-127.0.0.1
+localhost
 
 [lxc_hosts:vars]
 ansible_ssh_user=localadmin
@@ -19,4 +19,3 @@ ansible_ssh_user=ubuntu
 
 [all:vars]
 vars_file=local-vars.yml
-
