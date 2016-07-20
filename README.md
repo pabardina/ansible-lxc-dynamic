@@ -47,4 +47,4 @@ vars_file=local-vars.yml
 
 ### Run
 
-`ansible-playbook -i inventory -c local site.yml`
+`ansible-playbook -i inventory site.yml`
